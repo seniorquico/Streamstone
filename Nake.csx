@@ -26,7 +26,7 @@ var ArtifactsPath = $@"{RootPath}\Artifacts";
 var ReleasePackagesPath = $@"{ArtifactsPath}\Release";
 
 var AppVeyor = false;
-var Version = "2.0.0-dev";
+var Version = "3.0.0-dev";
 
 /// Installs dependencies and builds sources in Debug mode
 [Task] void Default()
